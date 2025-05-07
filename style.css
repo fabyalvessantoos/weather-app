@@ -1,33 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #c8dffe;
+    padding: 20px;
+}
+
+
+
 .container {
     max-width: 400px;
-    background: rgb(205, 238, 245);
+    background: rgb(171, 187, 245);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
 
+}
 
+h1 {
+    font-size: 24px;
 }
 
 .searchContainer {
     margin: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
 }
 
 .inputField {
     padding: 10px;
     width: 70%;
-    border: 1px solid #b5b3b7;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.searchBtn {
+#searchBtn {
     padding: 10px;
-    background: #007bff;
+    background: #023bb6;
     color: white;
     border: none;
     cursor: pointer;
@@ -35,7 +42,7 @@
 }
 
 #weatherContainer {
-    display:none;
+    display: none;
 }
 
 #errorMessage {
